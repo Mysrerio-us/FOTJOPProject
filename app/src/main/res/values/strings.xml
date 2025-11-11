@@ -1,4 +1,30 @@
 <resources>
     <string name="app_name">FOT JOP Project</string>
     <string name="login_button">Log in</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_message">Welcome back, you\'ve been missed.</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="login_illustration">Login illustration</string>
+    <string name="item_ordered">Item ordered</string>
+    <string name="coca_cola_x2">Coca-Cola x2</string>
+    <string name="_5_00">5.00</string>
+    <string name="item_ordered_2">Item ordered</string>
+    <string name="caesar_salad_x1">Caesar Salad x1</string>
+    <string name="x1_8_99">x1 £8.99</string>
+    <string name="item_ordered_3">Item ordered</string>
+    <string name="margherita_pizza_x1">Margherita Pizza x1</string>
+    <string name="x1_12_50">x1 £12.50</string>
+    <string name="table_4">Table 4</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="food">Food</string>
+    <string name="drinks">Drinks</string>
+    <string name="desserts">Desserts</string>
+    <string name="specials">Specials</string>
+    <string name="messages">MESSAGES</string>
+    <string name="pay_amp_send"><![CDATA[PAY & SEND]]></string>
+    <string name="starters">Starters</string>
 </resources>

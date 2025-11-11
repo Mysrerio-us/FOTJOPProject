@@ -35,5 +35,21 @@
     <color name="colorOutline">#D6E4FF</color>
     <color name="colorMuted">#9AAECF</color>
 
+    <color name="grey">#43454A</color>
+
+    <color name="dark_surface">#FF303838</color>
+    <color name="header_background_color">#FF2A3030</color>
+    <color name="dark_surface_footer">#FF212424</color>
+
+    <color name="dark_blue_button">#FF3D5A80</color>
+    <color name="green_button">#FF68B54F</color>
+
+    <color name="starter_yellow_color">#FFFCD36A</color>
+    <color name="pizza_orange_color">#FFD58C3D</color>
+    <color name="calzone_brown_color">#FF8F6230</color>
+    <color name="mains_reddish_orange_color">#FFE87440</color>
+    <color name="rissati_green_color">#FF84C455</color>
+    <color name="sides_light_green_color">#FF93D979</color>
+
 
 </resources>
