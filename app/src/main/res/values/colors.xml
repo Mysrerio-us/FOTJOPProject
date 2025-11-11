@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#0066FF</color>
+    <color name="colorPrimaryVariant">#0044CC</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#00D4B8</color>
+    <color name="colorOnSecondary">#001F18</color>
+
+    <color name="colorAccent">#FF6D3A</color>
+    <color name="colorOnAccent">#FFFFFF</color>
+
+    <!-- Background / Surface -->
+    <color name="colorBackground">#F7FBFF</color>
+    <color name="colorOnBackground">#071223</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#071223</color>
+
+    <!-- Dark theme variants -->
+    <color name="colorBackgroundDark">#071223</color>
+    <color name="colorOnBackgroundDark">#E6F2FF</color>
+    <color name="colorSurfaceDark">#0B1A2B</color>
+    <color name="colorOnSurfaceDark">#E6F2FF</color>
+
+    <!-- Status -->
+    <color name="colorError">#FF3B30</color>
+    <color name="colorOnError">#FFFFFF</color>
+    <color name="colorSuccess">#22C55E</color>
+    <color name="colorWarning">#FFC107</color>
+
+    <!-- Subtle / UI elements -->
+    <color name="colorOutline">#D6E4FF</color>
+    <color name="colorMuted">#9AAECF</color>
+
+
+</resources>
