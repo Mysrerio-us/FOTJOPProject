@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/margherita_pizza_x1"
+            android:layout_alignParentStart="true"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+
+        <TextView
+            android:id="@+id/price1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/x1_12_50"
+            android:layout_toStartOf="@+id/check1"
+            android:layout_marginEnd="8dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check_circle"
+            android:contentDescription="@string/item_ordered"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:tint="?attr/colorPrimary" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coca_cola_x2"
+            android:layout_alignParentStart="true"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"/>
+
+        <TextView
+            android:id="@+id/price2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_00"
+            android:layout_toStartOf="@+id/check2"
+            android:layout_marginEnd="8dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check_circle"
+            android:contentDescription="@string/item_ordered_2"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:tint="?attr/colorPrimary" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingVertical="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/caesar_salad_x1"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+
+        <TextView
+            android:id="@+id/price3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@+id/check3"
+            android:text="@string/x1_8_99"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/check3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/item_ordered_3"
+            android:src="@drawable/ic_check_circle"
+            app:tint="?attr/colorPrimary" />
+    </RelativeLayout>
+
+</LinearLayout>
